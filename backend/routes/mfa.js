@@ -31,4 +31,17 @@ router.post("/", async function (req, res) {
 	return res.status(400).send("Invalid");
 });
 
+router.delete("/", async function (req, res) {
+	const newSecret = generateSecret(12);
+	totp = new OTPAuth.TOTP({
+		issuer: "ACME",
+		label: "AzureDiamond",
+		algorithm: "SHA1",
+		digits: 6,
+		period: 30,
+		secret: newSecret,
+	});
+	res.status(203).send("Refreshed");
+});
+
 module.exports = router;
