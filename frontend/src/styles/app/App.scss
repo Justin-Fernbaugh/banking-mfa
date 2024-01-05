@@ -1,0 +1,35 @@
+body {
+    background-color: #A9A9A9;
+}
+
+h1 {
+    position: relative;
+    margin-left: 2.5vw;
+}
+
+#buttonContainer {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    padding-right: 2.5vw;
+    transform: translate(0,-50%);
+    top: -7vh;
+
+    button {
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        background: transparent;
+        margin-left: 2vw;
+        font-size: 1.5em;
+    }
+}
+
+#footer {
+    position: absolute;
+    top: 100vh;
+    height: auto;
+    background: #C7C7C7;
+    width: 100vw;
+    text-align: center;
+}

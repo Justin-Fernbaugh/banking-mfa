@@ -1,0 +1,46 @@
+
+#accountsPage {
+    .accountInfo {
+        position: absolute;
+        width: 30vw;
+        background-color: #D9D9D9;
+        top: 35vh;
+        transform: translate(-50%);
+        height: 35vh;
+
+        h3 {
+            position: absolute;
+            left: 1vw;
+            font-size: 1.5em;
+            top: -0.5vh;
+        }
+        p {
+            position: absolute;
+            font-size: 2em;
+            top: -2.5vh;
+            right: 1vw;
+        }
+    }
+
+
+    #user {
+        left: 25vw;
+    }
+
+    #recipient {
+        left: 75vw;
+    }
+
+    h2 {
+        position: absolute;
+        transform: translate(-50%);
+        top: 25vh;
+    }
+
+    #userHeader {
+        left: 25vw;
+    }
+    #recipientHeader {
+        left: 75vw;
+    }
+}
