@@ -1,0 +1,15 @@
+#homePage img {
+  position: absolute;
+  left: 75vw;
+  top: 55vh;
+  aspect-ratio: 1/1;
+  max-width: 50vw;
+  transform: translate(-50%, -50%);
+}
+#homePage h2 {
+  position: absolute;
+  left: 5vw;
+  font-size: 3em;
+  top: 35vh;
+  max-width: 45vw;
+}/*# sourceMappingURL=home.css.map */
